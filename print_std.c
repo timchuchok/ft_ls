@@ -6,7 +6,7 @@
 /*   By: vtymchen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/22 13:54:29 by vtymchen          #+#    #+#             */
-/*   Updated: 2017/06/22 13:54:33 by vtymchen         ###   ########.fr       */
+/*   Updated: 2017/06/29 09:23:20 by vtymchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	print_error(const char *filename)
 void	print_usage(char c)
 {
 	ft_printf("ls: illegal option -- %c\n", c);
-	ft_printf("usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1]");
+	ft_printf("usage: ls [-laRrtgGf]");
 	ft_printf("[file ...]\n");
 	exit(1);
 }
